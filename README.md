@@ -41,6 +41,10 @@ The contents of the .env file would be as below
 API_KEY=<your api key>
 API_URL=<your url>
 
+Install dotenv to use the .env file in the server application using the following command.
+
+npm install  -s dotenv@10.0.0
+
 # Part E - React Client Side
 
 Change to client directory sentimentAnalyzeClient.
