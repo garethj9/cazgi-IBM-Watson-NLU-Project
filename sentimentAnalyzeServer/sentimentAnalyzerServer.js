@@ -97,7 +97,7 @@ app.get("/url/sentiment", (req, res) => {
 app.get("/text/emotion", (req, res) => {
     // return res.send({"happy":"10","sad":"90"});
     //Extract the url passed from the client through the request object
-    let urlToAnalyze = req.query.text
+    let textToAnalyze = req.query.text
     const analyzeParams =
     {
         "text": textToAnalyze,
@@ -124,7 +124,7 @@ app.get("/text/emotion", (req, res) => {
 app.get("/text/sentiment", (req, res) => {
     // return res.send("text sentiment for "+req.query.text);
     //Extract the url passed from the client through the request object
-    let urlToAnalyze = req.query.text
+    let textToAnalyze = req.query.text
     const analyzeParams =
     {
         "text": textToAnalyze,
