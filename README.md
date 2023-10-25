@@ -1,5 +1,15 @@
 # coding-project-template
 
+# Part A: Fork the Git repository to have the server and client code you need to start
+
+Clone the repository by pasting the url you copied from the git repository.
+
+git clone <your_repo_name>
+
+Run the following command to update npm version.
+
+npm install npm@latest -s
+
 # Part B: Install Server-side packages
 
 cd /home/project/cazgi-IBM-Watson-NLU-Project/sentimentAnalyzeServer
